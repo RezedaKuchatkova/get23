@@ -1,0 +1,51 @@
+
+#main {
+    border: 15px solid rgb(247, 16, 228);
+    width: 50vw;
+    padding: 1rem;
+}
+
+.card {
+    border: 5px solid rgb(240, 5, 232);
+    padding: 20px;
+    background-color: rgb(237, 167, 225);
+    display: flex;
+    margin: 10px;
+}
+
+.card__image {
+    display: block;
+    width: 30%;
+}
+
+.card__container {
+    display: flex;
+    width: 70%;
+    border: 3px solid rgb(242, 5, 218);
+    padding: 10px;
+    margin-left: 20px;
+    flex-direction: column;
+    background-color: rgb(237, 211, 233);
+}
+
+.card__author {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.card__title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.card__descr {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: space-around;
+}
+
